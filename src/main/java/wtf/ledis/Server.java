@@ -1,6 +1,7 @@
 package wtf.ledis;
 
 import wtf.ledis.exception.ServerException;
+import wtf.ledis.handler.CommandHandler;
 
 import java.io.IOException;
 import java.net.ServerSocket;
