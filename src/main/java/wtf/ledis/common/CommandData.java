@@ -1,7 +1,6 @@
-package wtf.ledis.exception;
+package wtf.ledis.common;
 
 import org.apache.commons.lang3.tuple.Pair;
-import wtf.ledis.command.Command;
 import wtf.ledis.command.CommandType;
 
 import java.util.Arrays;
