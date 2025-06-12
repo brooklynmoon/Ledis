@@ -23,6 +23,6 @@ public enum CommandType {
                 .findFirst()
                 .orElseThrow(
                         () -> new IllegalArgumentException("Command not found: " + curCommand)
-                )
+                );
     }
 }
